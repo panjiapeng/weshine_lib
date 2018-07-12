@@ -1,0 +1,34 @@
+{
+  "name": "weshine/lib",
+  "description": "weshine/lib",
+  "keywords": [
+    "weshine",
+    "lib"
+  ],
+  "homepage": "https://github.com/panjiapeng213131/weshine_lib",
+  "type": "my-lib",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/panjiapeng213131/weshine_lib"
+  },
+  "authors": [
+    {
+      "name": "pjp",
+      "email": "vippjp@163.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+  },
+   "autoload": {
+        "files": ["helper/helper.php"],
+        "psr-4": {
+            "library\\": "library/"
+        }
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
