@@ -1,6 +1,6 @@
 {
-  "name": "weshinelib",
-  "description": "weshinelib",
+  "name": "weshine/lib",
+  "description": "weshine/lib",
   "keywords": [
     "weshine",
     "lib"
@@ -22,7 +22,7 @@
     "php": ">=5.4.0"
   },
    "autoload": {
-        "files": ["helper/helper.php"],
+        "files": ["helper.php"],
         "psr-4": {
             "library\\": "library/"
         }
