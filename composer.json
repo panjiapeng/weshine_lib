@@ -27,8 +27,5 @@
             "library\\": "library/"
         }
     }
-  },
-  "config": {
-    "process-timeout": 1800
   }
 }
